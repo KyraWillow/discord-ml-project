@@ -1,5 +1,34 @@
 # Path related.
 path_dataset: data/raw/brain_tumor_dataset.csv
+path_train_set:
+- data/interim/X_train.pkl
+- data/interim/y_train.pkl
+path_test_set:
+- data/interim/X_test.pkl
+- data/interim/y_test.pkl
+
+# Columns by data type related.
+int64_columns:
+- Patient_ID
+- Age
+float64_columns:
+- Tumor_Size
+- Survival_Rate
+- Tumor_Growth_Rate
+object_columns:
+- Gender
+- Location
+- Histology
+- Stage
+- Symptom_1
+- Symptom_2
+- Symptom_3
+- Radiation_Treatment
+- Surgery_Performed
+- Chemotherapy
+- Family_History
+- MRI_Result
+- Follow_Up_Required
 
 # Predictors and label related.
 label: Tumor_Type
