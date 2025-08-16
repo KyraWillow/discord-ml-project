@@ -1,0 +1,5 @@
+# Path related.
+path_dataset: data/raw/brain_tumor_dataset.csv
+
+# Predictors and label related.
+label: Tumor_Type
