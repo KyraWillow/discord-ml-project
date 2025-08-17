@@ -1,15 +1,22 @@
 # Path related.
 path_dataset: data/raw/brain_tumor_dataset.csv
+path_raw_dataset: data/interim/raw_dataset.pkl
+path_clean_dataset: data/processed/processed_dataset.pkl
 path_train_set:
 - data/interim/X_train.pkl
 - data/interim/y_train.pkl
 path_test_set:
 - data/interim/X_test.pkl
 - data/interim/y_test.pkl
+path_train_num:
+- data/interim/X_train_num.pkl
+path_train_cat:
+- data/interim/X_train_cat.pkl
 
 # Columns by data type related.
-int64_columns:
+identifier_column:
 - Patient_ID
+int64_columns:
 - Age
 float64_columns:
 - Tumor_Size
@@ -32,3 +39,6 @@ object_columns:
 
 # Predictors and label related.
 label: Tumor_Type
+
+# Debug and logging related.
+print_debug: True
