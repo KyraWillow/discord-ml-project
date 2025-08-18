@@ -12,9 +12,9 @@ path_train_num:
 - data/interim/X_train_num.pkl
 path_train_cat:
 - data/interim/X_train_cat.pkl
-path_train_set_final:
+path_set_final:
 - data/interim/X_train_final.pkl
-- data/interim/y_train_final.pkl
+- data/interim/X_test_final.pkl
 
 # Columns by data type related.
 identifier_column:
